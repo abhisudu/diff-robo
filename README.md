@@ -6,7 +6,8 @@ conditioning duct are provided. Maintaining the duct clean is a hectic task. Dus
 accumulate in these regions. Inside the duct condensation of moisture occurs at selective places and it enables the microbial
 growth.This robot is developed to inspect such kind of ducts and check for cracks inside ducts and keep track of temperature and humidity inside the duct.
 
-![front view](https://imgur.com/a/7CzUtpI.jpg)
+![smartcar2](https://user-images.githubusercontent.com/87858022/131360489-9836ce93-6038-4ffa-9947-860940f4435a.jpg)
+
 
 ## Software:
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
