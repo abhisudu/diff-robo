@@ -61,5 +61,6 @@ This software is intended to control a 4 wheel differential drive robot via [ROS
 #### NodeMcu GPIO pins
 ![IMG_20210520_133251](https://user-images.githubusercontent.com/87858022/131362147-3b7c9f26-2bd4-4eb0-a63d-5014233a3ff5.JPG)
 #### Example L298N motor driver
-![698d33db7b9fda12a49cf8cff0fe3120ca4a417e](https://user-images.githubusercontent.com/87858022/131362012-bbe9988a-eff4-4245-87a6-b05e729ead67.png)
+![mod](https://user-images.githubusercontent.com/87858022/131449612-f58e2409-3165-483e-b834-8c4ae7c3fbf6.JPG)
+
 
