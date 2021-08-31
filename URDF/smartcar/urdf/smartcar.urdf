@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="smartcar">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.01909081958634 0.000138578543074645 -0.0198961908372436"
+        rpy="0 0 0" />
+      <mass
+        value="0.363518554164245" />
+      <inertia
+        ixx="0.000523354837271544"
+        ixy="-4.94566574155405E-08"
+        ixz="6.40523865269719E-08"
+        iyy="0.00174036119906818"
+        iyz="-7.69824443099418E-07"
+        izz="0.00224742456343077" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wheel1">
+    <inertial>
+      <origin
+        xyz="-1.17410207655377E-05 -0.0270188386181104 1.38138537711524E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0507320425148898" />
+      <inertia
+        ixx="5.40982767839917E-06"
+        ixy="-9.34857373264211E-21"
+        ixz="7.78712998536137E-22"
+        iyy="6.63497541199847E-06"
+        iyz="3.01891529048928E-20"
+        izz="5.40982767839917E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="continuous">
+    <origin
+      xyz="0.13047 -0.068471 -0.057855"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel1" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="wheel2">
+    <inertial>
+      <origin
+        xyz="-1.174102076551E-05 -0.0270188386181103 1.38138537711177E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0507320425148897" />
+      <inertia
+        ixx="5.40982767839918E-06"
+        ixy="-9.6873033397707E-21"
+        ixz="-1.1161603375027E-21"
+        iyy="6.63497541199847E-06"
+        iyz="2.89904715660197E-20"
+        izz="5.40982767839918E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="continuous">
+    <origin
+      xyz="-0.054526 -0.068471 -0.057855"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel2" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="wheel3">
+    <inertial>
+      <origin
+        xyz="-1.17410207648994E-05 0.0270188386181099 -1.38138537708818E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.050732042514893" />
+      <inertia
+        ixx="5.40982767839955E-06"
+        ixy="-2.08155940681584E-21"
+        ixz="1.04224757181609E-21"
+        iyy="6.63497541199869E-06"
+        iyz="1.79926485988493E-19"
+        izz="5.40982767839939E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="continuous">
+    <origin
+      xyz="0.13044 0.068292 -0.057855"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel3" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="wheel4">
+    <inertial>
+      <origin
+        xyz="-1.17410207665231E-05 0.0270188386181106 -1.38138537707291E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0507320425148913" />
+      <inertia
+        ixx="5.40982767839931E-06"
+        ixy="-5.24117673499207E-20"
+        ixz="-3.55592831691866E-20"
+        iyy="6.63497541199857E-06"
+        iyz="-2.84171492564633E-20"
+        izz="5.40982767839932E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/wheel4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="continuous">
+    <origin
+      xyz="-0.05456 0.068292 -0.057855"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel4" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      effort="100"
+      velocity="100" />
+  </joint>
+  <link
+    name="cam">
+    <inertial>
+      <origin
+        xyz="0.00766255702558354 0.000930594777554057 0.0572603206533005"
+        rpy="0 0 0" />
+      <mass
+        value="0.0648828817109476" />
+      <inertia
+        ixx="1.7184860061111E-05"
+        ixy="3.53249816368273E-08"
+        ixz="-1.128644263597E-07"
+        iyy="1.19382813682083E-05"
+        iyz="1.74039573786558E-07"
+        izz="1.81187109637583E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/cam.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627450980392157 0.627450980392157 0.627450980392157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://smartcar/meshes/cam.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="fixed">
+    <origin
+      xyz="0.1185 -0.0031018 0.032378"
+      rpy="0 0.017482 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="cam" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+<gazebo reference="base_link">
+    <material>Gazebo/Yellow</material>
+</gazebo>
+<gazebo reference="cam">
+    <material>Gazebo/Blue</material>
+</gazebo>
+<gazebo reference="wheel1">
+    <material>Gazebo/Black</material>
+</gazebo>
+<gazebo reference="wheel2">
+    <material>Gazebo/Black</material>
+</gazebo>
+<gazebo reference="wheel3">
+    <material>Gazebo/Black</material>
+</gazebo>
+<gazebo reference="wheel4">
+    <material>Gazebo/Black</material>
+</gazebo>
+
+<gazebo>
+    <plugin name="object_controller" filename="libgazebo_ros_planar_move.so">
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <odometryRate>20.0</odometryRate>
+      <robotBaseFrame>base_link</robotBaseFrame>
+    </plugin>
+</gazebo>
+</robot>
