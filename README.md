@@ -49,6 +49,7 @@ This software is intended to control a 4 wheel differential drive robot via [ROS
 
 
 ![smartcar](https://user-images.githubusercontent.com/87858022/131361160-416c1d18-9117-4d9a-8bbf-809fe4dfce9d.jpg)
+![Screenshot from 2021-08-31 10-53-05](https://user-images.githubusercontent.com/87858022/131449467-cfa9a9df-0639-433b-b83c-c402d11b0630.png)
 ![IMG_20210822_100926](https://user-images.githubusercontent.com/87858022/131361255-5a7493f6-6e1e-4b64-a757-9dd65f160a8b.jpg)
 ![de](https://user-images.githubusercontent.com/87858022/131361451-e5684e78-7abf-48df-936b-673fadcf6115.JPG)
 ![IMG_20210830_194311vf3](https://user-images.githubusercontent.com/87858022/131361590-675bcbff-947c-4ded-9e79-4e61cfb5ef7e.jpeg)
