@@ -45,6 +45,10 @@ This software is intended to control a 4 wheel differential drive robot via [ROS
 - Launch gamepad node in a new terminal: `roslaunch teleop_twist_joy teleop.launch joy_config:=__insert gamepad type__` or 
 - Keybord node: `rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
 
+## TESTING:
+
+https://user-images.githubusercontent.com/87858022/131789231-de1599ea-d95f-4999-9b7b-e5fe2fd2ac0b.mp4
+
 ## Images:
 
 
