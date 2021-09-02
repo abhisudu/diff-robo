@@ -84,3 +84,5 @@ https://user-images.githubusercontent.com/87858022/131790104-820b30db-713f-4dc5-
 #### DHT11
 ![DHT11-Module-Pinout (1)](https://user-images.githubusercontent.com/87858022/131793061-37df9102-493a-4785-8a6e-5b2f46e0e20f.png)
 
+#### ESP32CAM
+![ksS4E](https://user-images.githubusercontent.com/87858022/131793266-1ed0e2bd-5f22-49a9-87ab-6f5769e7272d.png)
