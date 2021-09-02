@@ -80,3 +80,7 @@ https://user-images.githubusercontent.com/87858022/131790104-820b30db-713f-4dc5-
 ![IMG_20210520_133251](https://user-images.githubusercontent.com/87858022/131362147-3b7c9f26-2bd4-4eb0-a63d-5014233a3ff5.JPG)
 #### Example L298N motor driver
 ![mod](https://user-images.githubusercontent.com/87858022/131449612-f58e2409-3165-483e-b834-8c4ae7c3fbf6.JPG)
+
+#### DHT11
+![DHT11-Module-Pinout (1)](https://user-images.githubusercontent.com/87858022/131793061-37df9102-493a-4785-8a6e-5b2f46e0e20f.png)
+
