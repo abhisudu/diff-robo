@@ -4,7 +4,7 @@
 
 /* Wifi Crdentials */
 const char* ssid = "POCO M3";
-const char* password = "12345678";
+const char* password = "abhi123456";
 
 
 #define CAMERA_MODEL_AI_THINKER
