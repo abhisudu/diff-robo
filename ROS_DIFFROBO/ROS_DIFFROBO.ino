@@ -1,39 +1,3 @@
-/*
-
-  Arduino code to control a differential drive robot via ROS Twist messages using a NodeMcu or ESP8266
-  If you have questions or improvements email me at reinhard.sprung@gmail.com
-
-  Launch a ros serial server to connect to:
-    roslaunch rosserial_server socket.launch
-
-  Launch a teleop gamepad node:
-    roslaunch teleop_twist_joy teleop.launch joy_config:="insert gamepad type"
-
-
-  MIT License
-
-  Copyright (c) 2018 Reinhard Sprung
-
-  Permission is hereby granted, free of charge, to any person obtaining a copy
-  of this software and associated documentation files (the "Software"), to deal
-  in the Software without restriction, including without limitation the rights
-  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  copies of the Software, and to permit persons to whom the Software is
-  furnished to do so, subject to the following conditions:
-
-  The above copyright notice and this permission notice shall be included in all
-  copies or substantial portions of the Software.
-
-  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  SOFTWARE.
-
-*/
-
 #include <math.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
