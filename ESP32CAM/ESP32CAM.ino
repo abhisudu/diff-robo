@@ -3,7 +3,7 @@
 #include <WiFi.h>
 
 /* Wifi Crdentials */
-const char* ssid = "pocoM3";
+const char* ssid = "POCO M3";
 const char* password = "12345678";
 
 
